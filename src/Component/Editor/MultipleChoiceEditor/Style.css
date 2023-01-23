@@ -1,0 +1,134 @@
+.mcAnswerFragment {
+    padding: 0px;
+    padding-right: 7px;
+}
+
+.mcChoiceItemElement {
+    border: 1px solid lightgray;
+    margin-top: 10px;
+}
+
+.mcChoiceItemElement > .title {
+    padding-top: 0px !important;
+}
+
+.mcChoiceItemElement:hover {
+    border: 1px solid blue;
+}
+
+.mcChoiceItemHeader {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 5px;
+}
+
+.mcChoiceItemHeader > .header {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+    background-color: #eeeeee;
+    padding: 5px;
+}
+
+.mcChoiceItemHeader > .header > .devider {
+    flex: 2;
+}
+
+.mcChoiceItemHeader > .header > .itemCtrls {
+    padding-left: 20px;
+}
+
+.mcAnswersToolbar {
+    padding: 5px;
+    background-color: #efefef;
+    display: flex;
+    flex-direction: row;
+}
+
+.mcAnswersToolbar .title {
+    flex: 2;
+}
+
+.mcChoiceItem {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.mcChoiceItem .mcPropsRow {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 10px;
+}
+
+.mcChoiceItem .mcPropsRow .mcTitle {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.mcChoiceItem .mcPropsRow .mcTitle > div.input {
+    flex: 2;
+}
+
+.mcChoiceItem .mcPropsRow .optTitle {
+    padding-top: 5px;
+    width: 110px;
+}
+
+.mcChoiceItem .mcPropsRow .mcProp {
+    padding-right: 20px;
+}
+
+.mcChoiceItem .mcBodyRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.mcChoiceItem .mcBodyRow .optTitle {
+    padding-top: 20px;
+    width: 100px;
+}
+
+.mcChoiceItem .mcAddInfoRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.mcChoiceItem .mcAddInfoRow .optTitle {
+    padding-top: 20px;
+    width: 100px;
+}
+
+.mcChoiceItem .editorField {
+    border: 1px solid lightgray;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 0;
+    position: relative;
+    flex: 2;
+}
+
+.mcAddNewItemBtn {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 75px;
+    margin-bottom: 20px;
+    background-color: #eeeeee;
+    cursor: pointer;
+    margin-top: 7px;
+    
+}
+.mcAddNewItemBtn > div { 
+    color: darkgrey;
+}
+.mcAddNewItemBtn > div > i { 
+    color: darkgrey;
+}
+.mcAddNewItemBtn:hover {
+    background-color: #FFeeee;
+}
+.mcAddNewItemBtn > div {
+    margin: auto;
+    width: 150px;
+}

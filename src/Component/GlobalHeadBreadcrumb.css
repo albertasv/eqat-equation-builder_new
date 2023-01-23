@@ -1,0 +1,14 @@
+
+.xuiGlobalHeadBreadcrumb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.xuiGlobalHeadBreadcrumb .xuiAppMarker {
+    font-weight: bold;
+    color: black;
+    padding: 13px 20px;
+    font-size: 17px;
+    user-select: none;
+}

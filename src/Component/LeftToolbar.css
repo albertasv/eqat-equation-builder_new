@@ -1,0 +1,68 @@
+.xuiLeftToolbar {
+    flex-grow: 0;
+    flex-shrink: 0; 
+    display: flex;
+    flex-direction: column;
+    background-color: #EBEAEA;
+}
+
+.xuiLeftToolbar.xuiExpanded {
+    width: 170px;
+}
+
+.xuiLeftToolbar > .xuiExpander {
+    border: 0;
+    cursor: pointer;
+    padding: 5px 0;
+    background-color: #EBEAEA;
+    outline: none;
+    margin-bottom: 15px;
+}
+
+.xuiLeftToolbar > .xuiExpander:hover {
+    background-color: rgb(211, 235, 243);
+}
+
+.xuiLeftToolbar > .xuiItem {
+    flex-grow: 0;
+    flex-shrink: 0;
+    padding: 15px 8px;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    border-left: 5px solid #EBEAEA;
+}
+
+.xuiLeftToolbar > .xuiItem.xuiActive {
+    border-left: 5px solid blue;
+    background-color: lightblue;
+}
+.xuiLeftToolbar > .xuiItem.xuiPinned {
+    border-left: 5px solid green;
+    background-color: rgb(211, 238, 214);
+}
+
+.xuiLeftToolbar > .xuiHelpMessage {
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid yellowgreen;
+    background-color: yellow;
+    color: black;
+}
+
+.xuiLeftToolbar > .xuiItem:hover {
+    background-color: rgb(211, 235, 243);
+    cursor: pointer;
+}
+
+.xuiLeftToolbar > .xuiItem .xuiTitle {
+    padding-left: 5px;
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+.xuiLeftToolbar > .xuiItem img {
+    flex-grow: 0;
+    flex-shrink: 0;
+    width: 25px;
+}

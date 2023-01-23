@@ -1,0 +1,23 @@
+
+.naviViewItem {
+    padding: 10px;
+    cursor: pointer;
+}
+
+.naviViewItem:hover {
+    background-color: antiquewhite;
+}
+
+.naviViewItem.active {
+    background-color: aqua;
+    cursor: auto;
+}
+
+.naviViewItem .extra {
+    font-size: 12px;
+    color: lightgray;
+}
+
+.naviViewItem.active .extra {
+    color: gray;
+}

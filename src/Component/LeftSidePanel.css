@@ -1,0 +1,25 @@
+.xuiLeftSidePanel {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin-top: 5px;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.xuiLeftSidePanel > .xuiVResizer {
+    width: 5px;
+    background-color: rgba(0,0,100,0);
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    right: -5px;
+    z-index: 10;
+}
+
+.xuiLeftSidePanel > .xuiVResizer:hover {
+    cursor: col-resize;
+}
+
